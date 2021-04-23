@@ -1,6 +1,8 @@
 package modc
 
-var Version="v1.0.2"
+import "fmt"
+
+var Version="v1.0.3"
 
 func Print() {
 	fmt.Println("modc", Version)
